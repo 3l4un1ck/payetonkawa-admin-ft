@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "nom": "Boîte de café Arabica",
+    "type": "boite",
+    "categorie": "petite",
+    "format": "capsules",
+    "quantite": 20,
+    "prix": 8.5,
+    "description": "Boîte de 10 capsules Arabica pour machine.",
+    "image": "/public/coffee-bean.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Sachet de café moulu",
+    "type": "sachet",
+    "categorie": "grande",
+    "format": "cafetière",
+    "quantite": 12,
+    "prix": 14.0,
+    "description": "Sachet de 500g de café moulu pour cafetière.",
+    "image": "/public/coffee-bean.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Boîte de café Décaféiné",
+    "type": "boite",
+    "categorie": "moyenne",
+    "format": "capsules",
+    "quantite": 8,
+    "prix": 10.0,
+    "description": "Boîte de 20 capsules décaféinées.",
+    "image": "/public/coffee-bean.jpg"
+  }
+] 
