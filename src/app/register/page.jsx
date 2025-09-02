@@ -6,7 +6,7 @@ export default function RegisterPage() {
   const router = useRouter();
 
   const handleRegister = async (form) => {
-    const res = await fetch("http://138.68.243.1:8008/api/auth/register/", {
+    const res = await fetch("https://payetonkawa-client-bk.elauriche.live/api/auth/register/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
