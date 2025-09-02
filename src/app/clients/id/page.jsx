@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { UserGroupIcon, PlusIcon } from '@heroicons/react/24/solid';
 
-const API_URL = "http://localhost:8080/api/clients";
+const API_URL = "http://localhost:8080/api/clients/";
 
 export default function ClientsList() {
   const [clients, setClients] = useState([]);
