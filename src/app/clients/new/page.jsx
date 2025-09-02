@@ -26,7 +26,7 @@ export default function NewClient() {
 
   try {
     const res = await fetch(
-      "https://payetonkawa-client-bk.elauriche.live/api/clients/",
+      "http://138.68.243.1:8008/api/clients/",
       {
         method:  "POST",
         headers: {

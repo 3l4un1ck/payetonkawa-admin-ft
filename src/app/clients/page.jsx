@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const API_URL = "https://payetonkawa-client-bk.elauriche.live/api/clients";
+const API_URL = "http://138.68.243.1:8008/api/clients";
 
 export default function ClientsList() {
   const router = useRouter();

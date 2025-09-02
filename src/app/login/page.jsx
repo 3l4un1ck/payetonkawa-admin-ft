@@ -8,7 +8,7 @@ export default function LoginPage() {
   const [popup, setPopup] = useState({ show: false, type: '', message: '' });
 
   const handleLogin = async (form) => {
-    const res = await fetch("https://payetonkawa-client-bk.elauriche.live/api/auth/login/", {
+    const res = await fetch("http://138.68.243.1:8008/api/auth/login/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
